@@ -1,0 +1,482 @@
+.planet {
+    top: -15%;
+    left: 5%;
+    z-index: 2;
+    animation: planet-rotate 5s infinite;
+    width: 20rem;
+}
+
+.star-1 {
+    top: 5%;
+    left: 48%;
+    rotate: 300deg;
+    animation: star-rotate-1 1.5s infinite;
+    width: 8rem;
+}
+
+.star-2 {
+    top: 45%;
+    left: 88%;
+    rotate: 330deg;
+    animation: star-rotate-2 2s infinite;
+    width: 8rem;
+}
+
+.star-3 {
+    top: 65%;
+    left: 15%;
+    animation: star-rotate-3 1.75s infinite;
+    width: 8rem;
+}
+
+.rocket {
+    top: 8%;
+    left: 80%;
+    width: 17rem;
+}
+
+.pencil {
+    width: 55rem;
+    top: 50%;
+    padding-left: 4rem;
+}
+
+.underline {
+    width: 25%;
+    top: 82%;
+    left: 31.5%;
+}
+
+.plane {
+    top: 70%;
+    left: 60%;
+    z-index: 100;
+    width: 15rem;
+}
+
+@keyframes invert {
+    0% {
+        transform: rotate(0deg);
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: rotate(180deg);
+        transform: translate(-50rem, 70rem);
+    }
+
+    100% {
+        transform: rotate(360deg);
+        transform: translate(0rem, 120rem);
+    }
+}
+
+.photo {
+    margin-top: 15rem;
+    background-color: var(--light-yellow);
+    border: 2px solid;
+    border-color: white white var(--dark-gray-red) var(--dark-gray-red);
+    rotate: -2deg;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    padding: 2rem;
+    position: relative;
+    margin-left: 10%;
+}
+
+.photo img {
+    height: 27rem;
+    width: 27rem;
+    border: 2px solid;
+    border-color: var(--dark-gray-red) var(--dark-gray-red) white white;
+}
+
+.photo span {
+    margin-top: 1rem;
+    font-size: 3.7rem;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+.photo-effect {
+    width: 33rem !important;
+    height: 33rem !important;
+    position: absolute;
+    top: -40%;
+    right: -40%;
+    border: 0px !important;
+}
+
+.sticky-note-birthday {
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    color: var(--dark-blue);
+    margin: 5rem 0 0 2rem;
+}
+
+.sticky-note-birthday-name {
+    font-size: 5rem;
+    rotate: -3deg;
+    color: var(--purple);
+    margin: 2rem 0 0 0;
+    text-align: center;
+}
+
+.sticky-note-family {
+    font-size: 2.5rem;
+    color: var(--dark-blue);
+    text-align: center;
+    margin: 4rem;
+}
+
+.sticky-note-family-name {
+    margin-top: 2rem;
+    font-size: 5rem;
+    rotate: 3deg;
+    display: block;
+    text-align: center;
+    color: var(--dark-blue);
+    line-height: 1;
+}
+
+.sticky-note-sprachen {
+    font-size: 2rem;
+    color: var(--dark-blue);
+    padding: 2rem 0 0 0;
+}
+
+.sticky-note-sprachen-name {
+    font-size: 3.5rem;
+    color: white;
+    padding: 2.5rem 0 0 0;
+}
+
+.note-sport {
+    background-image: url(../../images/note_sport.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30rem;
+    height: 25rem;
+    font-size: 1.8rem;
+    color: var(--dark-blue);
+    padding: 5rem 5rem 1rem 5rem;
+    margin-top: 5rem;
+}
+
+.judo {
+    margin-left: 10rem;
+    margin-top: 3rem;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.judo img {
+    height: 40rem;
+    width: 40rem;
+}
+
+.judoka {
+    height: auto;
+    width: 30rem;
+    margin: 0 0 0 9rem;
+}
+
+.judoka-effect {
+    width: 30rem;
+    margin: 5rem 0 0 10rem;
+}
+
+
+.white-boom {
+    position: absolute;
+    height: 20rem;
+    top: 5%;
+    left: 9%;
+}
+
+.pin {
+    height: 15rem;
+    display: flex;
+    margin: 2rem 0 0 18rem;
+}
+
+.note-thinking {
+    background-image: url(../../images/note_thinking.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 45rem;
+    height: 30rem;
+    font-size: 1.7rem;
+    color: var(--dark-blue);
+    margin: 5rem 5rem 10rem 20rem;
+}
+
+.note-thinking span {
+    display: flex;
+    transform: rotate(3deg);
+    padding: 5rem 5rem 0 5rem;
+}
+
+.speedcuber {
+    margin: 15rem 0 0 0;
+}
+
+.rock {
+    margin: 20rem 0 0 0;
+}
+
+.cube {
+    width: 40rem;
+    height: 40rem;
+}
+
+.gitare {
+    width: 40rem;
+    height: 40rem;
+}
+
+.judo-slogan {
+    background-image: url(../../images/blackboard.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50rem;
+    height: 30rem;
+    display: flex;
+    text-align: center;
+    color: white;
+    padding: 5rem 0 0 0;
+    margin: 11rem 0 0 7rem;
+}
+
+.thinking-slogan {
+    background-image: url(../../images/blackboard.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50rem;
+    height: 30rem;
+    display: flex;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    padding: 5rem 0 0 0;
+    margin: 11rem 0 0 7rem;
+}
+
+.drawing-slogan {
+    background-image: url(../../images/blackboard.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50rem;
+    height: 30rem;
+    display: flex;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    padding: 5rem 0 0 0;
+    margin: 11rem 0 0 7rem;
+}
+
+.rock-slogan {
+    background-image: url(../../images/blackboard.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50rem;
+    height: 30rem;
+    display: flex;
+    text-align: center;
+    font-size: 5.5rem;
+    color: white;
+    padding: 8rem 0 0 0;
+    margin: 11rem 0 0 2rem;
+}
+
+.white-square {
+    width: 37.5%;
+    height: 35%;
+    background-color: #ffffff;
+    position: absolute;
+    margin: 18% 0 0 17%;
+    rotate: 5deg;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-size: 3rem;
+    box-sizing: border-box;
+}
+
+.white-square:hover {
+    transform: translatey(-40%)
+}
+
+.mail-back {
+    width: 40%;
+    margin: 1.75% 0 0 16.25%;
+    rotate: 5deg;
+    position: absolute;
+}
+
+.mail-front {
+    width: 40%;
+    margin: 18% 0 0 15%;
+    rotate: 5deg;
+    position: absolute;
+    z-index: 10;
+}
+.mail-front:hover ~  .white-square {
+    transform: translatey(-40%)
+}
+
+.knight {
+    position: absolute;
+    transform: scaleX(-1);
+    left: 70%;
+    top: 30%;
+}
+
+
+
+.background-blue {
+    background-image: url(../../images/background-blue.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 90%;
+    background-position-y: 9rem;
+}
+
+.background-pink {
+    background-image: url(../../images/background-pink.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: 9rem;
+    background-position-x: 22%;
+}
+
+
+.note-music {
+    background-image: url(../../images/note_music.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30rem;
+    height: 15rem;
+    font-size: 2.1rem;
+    color: var(--dark-blue);
+    margin: 2rem 5rem 10rem 20rem;
+    padding: 10rem 5rem 0 5rem;
+}
+
+.puzzle {
+    position: absolute;
+    height: 40%;
+    top: 0%;
+    right: 3%;
+}
+
+.skate {
+    position: absolute;
+    width: 15%;
+    height: 25%;
+    top: 5%;
+    right: 5%;
+}
+
+.note {
+    width: 50rem;
+    margin: 2rem 0 0 15rem;
+}
+
+.sketchbook {
+    background-image: url(../../images/sketchbook.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 7%;
+    height: 38rem;
+    text-align: center;
+    gap: 10%;
+    margin-left: 25%;
+}
+
+.sketchbook .left {
+    width: 20rem;
+    font-size: 1.5rem;
+    padding-top: 5%;
+    flex-shrink: 0;
+}
+
+.sketchbook .right {
+    width: 20rem;
+    font-size: 1.5rem;
+    padding-top: 5%;
+    flex-shrink: 0;
+}
+
+.sketchbook .gap {
+    gap: 8rem;
+}
+
+.eraser {
+    height: 10rem;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+}
+
+.pen {
+    height: 30rem;
+    position: absolute;
+    top: 40%;
+    left: 80%
+}
+
+
+.painter {
+    margin: 15rem 0 0 0;
+}
+
+
+
+
+@keyframes star-rotate-1 {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(30deg)
+    }
+}
+
+
+@keyframes star-rotate-2 {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+
+@keyframes star-rotate-3 {
+    0% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(-20deg);
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+}

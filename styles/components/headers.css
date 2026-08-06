@@ -1,0 +1,64 @@
+h1 {
+    color: var(--dark-blue);
+    text-align: center;
+    font-size: 9rem;
+    margin-bottom: 6rem;
+    z-index: 5;
+}
+
+h2:hover {
+    transform: scale(1.1);
+
+}
+
+.sport h3 {
+    color: var(--dark-green);
+    font-size: 5.5rem;
+    padding: 3rem;
+    margin: 0 0 3rem 7rem;
+    display: flex;
+    justify-content: center;
+    background-image: url(../../images/header-background-drawing.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: center;
+}
+
+.thinking h3 {
+    color: var(--orange);
+    font-size: 5rem;
+    padding: 3rem;
+    margin: 0 0 3rem 7rem;
+    display: flex;
+    justify-content: center;
+    background-image: url(../../images/header-background-thinking.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: center;
+}
+
+.drawing h3 {
+    color: white;
+    font-size: 5.5rem;
+    padding: 3rem;
+    margin: 0 0 3rem 7rem;
+    display: flex;
+    justify-content: center;
+    background-image: url(../../images/header-background-drawing.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: center;
+}
+
+.music h3 {
+    color: var(--orange);
+    font-size: 5.5rem;
+    padding: 3rem;
+    margin: 0 0 3rem 7rem;
+    display: flex;
+    justify-content: center;
+    background-image: url(../../images/header-background-thinking.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: center;
+}

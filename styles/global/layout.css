@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --dark-blue: #0d0060;
+    --aquamarin: #3eb1a6;
+    --light-yellow: #f2f1eb;
+    --dark-gray-red: #3c3333;
+    --purple: #552092;
+    --dark-green: #00542c;
+    --orange: #f46356;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../../images/paper.png);
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+section {
+    position: relative;
+    min-height: 100vh;
+}
+
+.welcome-page {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100dvh;
+}
+
+footer {
+    height: 6rem;
+    background-color: var(--light-yellow);
+    text-align: center;
+    font-size: 4rem;
+    color: var(--dark-gray-red);
+}
+
+.out-of-layout {
+    position: absolute;
+}
+
+.centerx {
+    justify-content: center;
+}
+
+.centery {
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.parent {
+    margin-left: 5rem;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 3fr 7fr;
+}
+
+
+.div1 {
+    grid-column: span 2 / span 2;
+    text-align: center;
+    background-image: url(../../images/sticky-note-languages.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: center;
+    background-position-y: 1rem;
+    height: 25rem;
+}
+
+.div2 {
+    grid-row-start: 2;
+    background-image: url(../../images/sticky-note-birthday.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 35rem;
+    width: 30rem;
+}
+
+.div3 {
+    grid-row-start: 2;
+    background-image: url(../../images/sticky-note-family.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-y: 7rem;
+    background-position-x: 3.5rem;
+}
