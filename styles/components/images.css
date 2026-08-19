@@ -391,7 +391,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 7%;
-    height: 38rem;
+    height: 33rem;
     text-align: center;
     gap: 10%;
     margin-left: 25%;
@@ -399,14 +399,14 @@
 
 .sketchbook .left {
     width: 20rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding-top: 5%;
     flex-shrink: 0;
 }
 
 .sketchbook .right {
     width: 20rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding-top: 5%;
     flex-shrink: 0;
 }
