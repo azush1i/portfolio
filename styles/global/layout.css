@@ -23,11 +23,13 @@ body {
     background-image: url(../../images/paper.png);
     background-size: 100%;
     overflow-x: hidden;
+    
 }
 
 section {
     position: relative;
     min-height: 100vh;
+    margin-bottom: 10rem;
 }
 
 .welcome-page {
